@@ -14,15 +14,16 @@ import {
   mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  photoshop,
+  iit,
+  virtusa,
+  fiverr,
   carrent,
   jobit,
   tripguide,
   threejs,
+  creatorchain,
+  ecommerce,
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +47,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Blockchain Developer",
     icon: mobile,
   },
   {
@@ -109,56 +110,47 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "photoshop",
+    icon: photoshop,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Undergraduate",
+    company_name: "Informatics Institute of Technology",
+    icon: iit,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "January 2021 - July 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Learned the fundamentals of computer science and software engineering, including data structures, algorithms, and object-oriented programming.",
+      "Participated in hackathons and coding competitions to improve problem-solving skills.",
+      "Collaborated with other students on group projects to build real-world applications.",
+      "Completed an internship at a software company to gain practical experience in the field.",
+      "Graduated with a Bachelor's degree in Computer Science and Engineering.",
+      "Continuously learning new technologies and improving my skills through online courses and self-study.",
+      
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Salesforce Intern",
+    company_name: "Virtusa PVT LTD",
+    icon: virtusa,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "August 2022 - July 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using Salesforce and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+      "Working with clients to understand their requirements and provide technical solutions.",
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    company_name: "Fiverr",
+    icon: fiverr,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -167,6 +159,19 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
@@ -198,9 +203,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "CreatorChain",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A Blockchain based coyrights management system that allows creators to protect their digital content and monetize their work usin Solana blockchain",
     tags: [
       {
         name: "react",
@@ -215,13 +220,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: creatorchain,
+    source_code_link: "https://github.com/Shakith7/creatorchain2",
   },
   {
-    name: "Job IT",
+    name: "E-Commerce Web application.",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A MERN stack e-commerce web application that allows users to browse products, add, edit and delete products.",
     tags: [
       {
         name: "react",
@@ -236,8 +241,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: ecommerce,
+    source_code_link: "https://github.com/Shakith7/code-crafters-assignment-frontend",
   },
   {
     name: "Trip Guide",
