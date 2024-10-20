@@ -29,6 +29,7 @@ import tesla from "./company/tesla.png";
 import iit from "./company/IIT.png";
 import fiverr from "./company/Fiverr.png";
 import virtusa from "./company/Virtusa.png";
+import codecrafters from "./company/code_crafters_lk_logo.jfif"
 
 
 import carrent from "./carrent.png";
@@ -68,6 +69,7 @@ export {
   jobit,
   tripguide,
   iit,
+  codecrafters,
   fiverr,
   virtusa,
   creatorchain,
